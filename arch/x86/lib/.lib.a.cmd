@@ -1,0 +1,1 @@
+cmd_arch/x86/lib/lib.a := rm -f arch/x86/lib/lib.a; ar rcs arch/x86/lib/lib.a arch/x86/lib/checksum_32.o arch/x86/lib/delay_32.o arch/x86/lib/getuser_32.o arch/x86/lib/memcpy_32.o arch/x86/lib/putuser_32.o arch/x86/lib/semaphore_32.o arch/x86/lib/string_32.o arch/x86/lib/strstr_32.o arch/x86/lib/usercopy_32.o

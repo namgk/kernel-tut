@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/cpu/mcheck/built-in.o :=  ld -m elf_i386   -r -o arch/x86/kernel/cpu/mcheck/built-in.o arch/x86/kernel/cpu/mcheck/mce_32.o arch/x86/kernel/cpu/mcheck/therm_throt.o arch/x86/kernel/cpu/mcheck/k7.o arch/x86/kernel/cpu/mcheck/p4.o arch/x86/kernel/cpu/mcheck/p5.o arch/x86/kernel/cpu/mcheck/p6.o arch/x86/kernel/cpu/mcheck/winchip.o 
